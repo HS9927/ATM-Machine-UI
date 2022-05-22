@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ATM Machine</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/style1.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="section">
+        <h1 class="text-center text-white">ATM</h1>
+
+        <div class="row mt-4">
+          <!-- Left Slide -->
+          <div class="col-3">
+            <div class="main_info">
+              <div
+                style="display: flex; flex-wrap: wrap; align-content: center"
+              >
+                <div class="" style="height: auto; width: 100%">
+                  <p>
+                    Welcome back <br />
+                    Hai Chanthy
+                  </p>
+                </div>
+                <br /><br />
+                <div class="my-3" style="height: auto; width: 100%">
+                  <p>
+                    Account No <br />
+                    12345678
+                  </p>
+                </div>
+                <br /><br />
+                <div style="height: auto; width: 100%">
+                  <p>
+                    Last Login <br />
+                    19/05/2022 5:00:00 AM
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <button class="btn btn-success mt-3 w-100">
+                Change Language
+              </button>
+              <br />
+              <button class="btn btn-secondary mt-2 w-100" onclick="location.href='forget-password.html'">
+                Change Password
+              </button>
+              <br />
+              <button
+                class="btn btn-danger mt-2 w-100"
+                onclick="location.href='log-in.html'"
+              >
+                Log Out
+              </button>
+            </div>
+          </div>
+
+          <!-- Right Slide -->
+          <div class="col-9">
+            <!-- Row 1 -->
+            <div class="row d-flex justify-content-center">
+              <div class="col-5 box" onclick="location.href='account.html';">
+                <div class="d-flex justify-content-center">
+                  <img src="../img/account.png" alt="" />
+                </div>
+                <div class="d-flex justify-content-center mt-3">
+                  <label for="">Account</label>
+                </div>
+              </div>
+              <div class="col-1"></div>
+              <div class="col-5 box" onclick="location.href='cash-deposit.html';">
+                <div class="d-flex justify-content-center">
+                  <img src="../img/deposit.png" alt="" />
+                </div>
+                <div class="d-flex justify-content-center mt-3">
+                  <label for="">Deposit</label>
+                </div>
+              </div>
+              <!-- <div class="col-1"></div>
+                        <div class="col-3 box">
+                            <div class="d-flex justify-content-center">
+                                <img src="../img/account.png" alt="">
+                            </div>
+                            <div class="d-flex justify-content-center mt-3">
+                                <label for="">Withdrawal</label>
+                            </div>
+                        </div> -->
+            </div>
+
+            <!-- Row 2 -->
+            <div class="row d-flex justify-content-center my-4">
+              <div class="col-5 box" onclick="location.href='cash-withdrawal.html';">
+                <div class="d-flex justify-content-center">
+                  <img src="../img/withdrawal.png" alt="" />
+                </div>
+                <div class="d-flex justify-content-center mt-3">
+                  <label for="">Withdrawal</label>
+                </div>
+              </div>
+              <div class="col-1"></div>
+              <div class="col-5 box" onclick="location.href='cash-transfer.html';">
+                <div class="d-flex justify-content-center">
+                  <img src="../img/transfer.png" alt="" />
+                </div>
+                <div class="d-flex justify-content-center mt-3">
+                  <label for="">Transfer</label>
+                </div>
+              </div>
+              <!-- <div class="col-1"></div>
+                        <div class="col-3 box">
+                            <div class="d-flex justify-content-center">
+                                <img src="img/account.png" alt="">
+                            </div>
+                            <div class="d-flex justify-content-center mt-3">
+                                <label for="">Report</label>
+                            </div>
+                        </div> -->
+            </div>
+
+            <div class="row d-flex justify-content-center my-4">
+              <div class="col-5 box" onclick="location.href='payment-list.html';">
+                <div class="d-flex justify-content-center">
+                  <img src="../img/payment.png" alt="" />
+                </div>
+                <div class="d-flex justify-content-center mt-3">
+                  <label for="">Payment</label>
+                </div>
+              </div>
+              <div class="col-1"></div>
+              <div class="col-5 box" onclick="location.href='report.html';">
+                <div class="d-flex justify-content-center">
+                  <img src="../img/report.png" alt="" />
+                </div>
+                <div class="d-flex justify-content-center mt-3">
+                  <label for="">Report</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

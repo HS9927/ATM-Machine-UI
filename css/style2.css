@@ -1,0 +1,21 @@
+.section {
+     position: absolute;
+     width: 25%;
+     left: 50%;
+     top: 50%;
+     transform: translate(-50%, -50%);
+     background-color: #0278ae;
+     padding: 20px;
+     border-radius: 5px;
+}
+     
+a {
+     color: yellow;
+}
+
+a:hover {
+     color: white;
+}
+label {
+     color: white;
+}

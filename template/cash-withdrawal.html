@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Cash Withdrawal</title>
+     <link rel="stylesheet" href="../css/bootstrap.min.css">
+     <link rel="stylesheet" href="../css/style2.css">
+</head>
+<body >
+     
+<div class="container" >
+     <div class="section">
+          <h4 class="text-center text-white">Cash Withdrawal</h4>
+
+          <div class="form-group mt-3">
+               <label for="">Instant Account No</label>
+               <input type="text" class="form-control mt-2" value="123 456 789" disabled>
+          </div>
+
+          <div class="form-group mt-3">
+               <label for="">Balance</label>
+               <input type="text" class="form-control mt-2" value="$ 1,282" disabled>
+          </div>
+
+          <div class="form-group mt-3">
+               <label for="">Amount</label>
+               <input type="number" class="form-control mt-2" required />
+          </div>
+
+          <div class="form-group mt-3">
+               <label for="">Password</label>
+               <input type="password" class="form-control mt-2" required />
+          </div>
+
+          <!-- <div class="form-group mt-3">
+               <label for="">Email</label>
+               <input type="text" class="form-control mt-2">
+          </div> -->
+
+          <div class="mt-4 d-flex justify-content-end ">
+               <button class="btn btn-block btn-danger px-3 mx-3" onclick="location.href='atm-dashboard.html'">Cancel</button>
+               <button type="submit" class="btn btn-block btn-success px-3" onclick="location.href='atm-dashboard.html'">Withdrawal</button>
+          </div>
+     </div>
+</div>
+
+</body>
+</html>

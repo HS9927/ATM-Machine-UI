@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Account</title>
+    <link rel="stylesheet" href="../bootstrap/bootstrap.css" />
+    <link rel="stylesheet" href="../bootstrap/dataTables.bootstrap4.min.css" />
+    <link rel="stylesheet" href="../css/style3.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="section">
+        <div class="d-flex justify-content-center mb-3">
+          <img src="../img/new credit card.png" alt="" />
+        </div>
+
+        <table class="table ">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col" class="text-center">Tran No</th>
+              <th scope="col" class="text-center">Amount</th>
+              <th scope="col" class="text-center">Date</th>
+              <th scope="col" class="text-center">Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">001</th>
+              <td>$ 1,000</td>
+              <td>26/02/2022 10:00:01 am</td>
+              <td>N/A</td>
+            </tr>
+            <tr>
+              <th scope="row">002</th>
+              <td>$ 2,500</td>
+              <td>02/01/2022 11:55:06 am</td>
+              <td>Buy Macbook</td>
+            </tr>
+            <tr>
+              <th scope="row">003</th>
+              <td>$ 5</td>
+              <td>05/11/2021 06:04:01 pm</td>
+              <td>Cafe</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="d-flex justify-content-center">
+             <button class="btn btn-danger px-5 mt-2" onclick="location.href='atm-dashboard.html'">Go Back</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="../bootstrap/jquery-3.5.1.js"></script>
+    <script src="../bootstrap/jquery.dataTables.min.js"></script>
+    <script src="../bootstrap/dataTables.bootstrap4.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".table").DataTable();
+      });
+    </script>
+  </body>
+</html>

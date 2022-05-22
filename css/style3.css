@@ -1,0 +1,30 @@
+.section {
+     position: absolute;
+     width: 50%;
+     left: 50%;
+     top: 50%;
+     transform: translate(-50%, -50%);
+     background-color: #0278ae;
+     padding: 20px;
+     border-radius: 5px;
+}
+     
+a {
+     color: yellow;
+}
+
+a:hover {
+     color: white;
+}
+label {
+     color: white;
+}
+.card-header {
+     /* width: 20%; */
+     height: 230px;
+     border-radius: 10px;
+}
+img {
+     width: 250px;
+     /* height: 200px; */
+}
